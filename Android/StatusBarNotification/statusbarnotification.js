@@ -35,6 +35,7 @@ var cordovaRef = window.PhoneGap || window.Cordova || window.cordova; // old to 
 function Flag() {}
 Flag.FLAG_AUTO_CANCEL="16";
 Flag.FLAG_NO_CLEAR="32";
+Flag.FLAG_ONGOING_EVENT="2";
 
 /** @deprecated Use the W3C standard window.Notification API instead. */
 var NotificationMessenger = function() { }
